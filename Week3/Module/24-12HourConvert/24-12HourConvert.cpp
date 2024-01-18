@@ -8,10 +8,10 @@ using namespace std;
 int main()
 {
     int hour24;
-    int min24;
+    string min24;
 
     int hour12;
-    int min12;
+    string min12;
 
     string period;
     char temp;
