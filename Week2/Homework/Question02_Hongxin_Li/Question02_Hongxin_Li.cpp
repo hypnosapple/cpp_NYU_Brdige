@@ -19,7 +19,6 @@ int main()
     int pennieN;
     int cent;
     int total;
-    int remain;
 
     cout << "Please enter your amount in the format of dollars and cents separated by a space: \n";
     cin >> dollar >> cent;
@@ -27,15 +26,15 @@ int main()
     total = (dollar * dollarV) + cent;
     
     quarterN = total / quarterV; 
-    remain = (total - (quarterN * quarterV));
+    total %= quarterV;
 
-    dimeN = remain / dimeV; 
-    remain = (total - (quarterN * quarterV) - (dimeN * dimeV));
+    dimeN = total / dimeV; 
+    total %= dimeV;
 
-    nickelN = remain / nickelV;
-    remain = (total - (quarterN * quarterV) - (dimeN * dimeV) - (nickelV * nickelN));
+    nickelN = total / nickelV;
+    total %= nickelV;
 
-    pennieN = remain / pennieV;
+    pennieN = total;
 
     cout << dollar << " dollars and " << cent << " cent are: \n";
     cout << quarterN << " quarters, " << dimeN << " dimes, " << nickelN << " nickels and " << pennieN << " pennies" << endl;
