@@ -41,6 +41,6 @@ int main()
     else {
         cout << name << ", you are not in college yet" << endl;
     }
-
+    return 0;
 }
 

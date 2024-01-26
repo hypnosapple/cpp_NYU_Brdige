@@ -55,5 +55,7 @@ int main()
         // else use quadratic equations to solve ( a cannot be 0)
     }
 
+    return 0;
+
 }
 

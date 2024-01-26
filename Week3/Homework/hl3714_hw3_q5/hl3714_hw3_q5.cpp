@@ -41,5 +41,7 @@ int main()
     }
 
     cout << "The weight status is: " << status << endl;
+
+    return 0;
 }
 

@@ -43,6 +43,7 @@ int main()
     }
     else {
         cout << "Please type a valid answer." << endl;
+        return 0;
     }
 
     //ask the user about the tax rate
@@ -60,6 +61,7 @@ int main()
     cout << "Price after discounts: " << dPrice << endl;
     cout << "Total price: " << tPrice << endl;
 
+    return 0;
 
 }
 
