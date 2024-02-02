@@ -1,0 +1,4 @@
+﻿  scratch.cpp
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\scratch\scratch.cpp(9,28): warning C4101: 'output': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\scratch\scratch.cpp(9,9): warning C4101: 'remainder': unreferenced local variable
+  scratch.vcxproj -> D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\scratch\x64\Debug\scratch.exe

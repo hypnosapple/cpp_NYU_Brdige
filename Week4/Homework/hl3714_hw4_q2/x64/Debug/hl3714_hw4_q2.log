@@ -1,0 +1,9 @@
+﻿  hl3714_hw4_q2.cpp
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,10): warning C4101: 'M': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,25): warning C4101: 'V': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,19): warning C4101: 'L': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,28): warning C4101: 'I': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,13): warning C4101: 'D': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,22): warning C4101: 'X': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\hl3714_hw4_q2.cpp(9,16): warning C4101: 'C': unreferenced local variable
+  hl3714_hw4_q2.vcxproj -> D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\x64\Debug\hl3714_hw4_q2.exe

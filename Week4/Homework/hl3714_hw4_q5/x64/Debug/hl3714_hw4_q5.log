@@ -1,0 +1,4 @@
+﻿  hl3714_hw4_q5.cpp
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q5\hl3714_hw4_q5.cpp(11,6): warning C4101: 'numberStars': unreferenced local variable
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q5\hl3714_hw4_q5.cpp(11,19): warning C4101: 'numberSpace': unreferenced local variable
+  hl3714_hw4_q5.vcxproj -> D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q5\x64\Debug\hl3714_hw4_q5.exe
