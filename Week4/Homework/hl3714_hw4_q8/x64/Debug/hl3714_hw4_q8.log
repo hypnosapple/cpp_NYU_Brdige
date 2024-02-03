@@ -1,0 +1,3 @@
+﻿  hl3714_hw4_q8.cpp
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q8\hl3714_hw4_q8.cpp(12,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  hl3714_hw4_q8.vcxproj -> D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q8\x64\Debug\hl3714_hw4_q8.exe

@@ -22,19 +22,60 @@ int main()
     //initialize row
     r = 1;
 
+
     //print the table
     for (l = 1; l <= n; l++) {
-
-        //initialize column
-        c = 1;
        
         //print first row 
         if (r == 1) {
+            for (c = 1; c <= n; c++) {
+                cout << c ;
+                //check the space number 
+                if (c < 10) {
+                    cout << "      ";
+                }
+                else if (c > 9 && c < 100) {
+                    cout << "     ";
+                }
+                else if (c > 99 && c < 1000) {
+                    cout << "    ";
+                }
+            }
+        }
+        else {
+            //print the first number first
+            cout << r ;
 
+            //print space based on the digit of r
+            if (r < 10) {
+                cout << "      ";
+            } else if (r > 9 && r < 100) {
+                cout << "     ";
+            }
+            else if (r > 99 && r < 1000) {
+                cout << "    ";
+            }
+
+            // print each the rest of the number for each row
+            for (c = 2; c <= n; c++) {
+                cout << c * r ;
+
+                if (c * r < 10) {
+                    cout << "      ";
+                }
+                else if ((c * r) > 9 && (c * r) < 100) {
+                    cout << "     ";
+                }
+                else if ((c * r) > 99 && (c * r) < 1000) {
+                    cout << "    ";
+                }
+            }
         }
 
         //update row
         r += 1;
+        //new row
+        cout << endl;
     }
 
 }

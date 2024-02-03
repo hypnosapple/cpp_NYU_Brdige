@@ -15,6 +15,12 @@ int main()
     cout << "Please enter a positive integer: ";
         cin >> posInt;
 
+    //check if the integer 
+        if (posInt < 1) {
+            cout << "Please enter a valid value.";
+                return 0;
+    } 
+
     counter = 1;
 
     while (counter <= posInt) {

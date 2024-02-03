@@ -1,1 +1,2 @@
 D:\git_cpp\cpp_NYU_Brdige\Week4\hl3714_hw4_q2\Debug\hl3714_hw4_q2.exe
+D:\git_cpp\cpp_NYU_Brdige\Week4\Homework\hl3714_hw4_q2\Debug\hl3714_hw4_q2.exe

@@ -13,6 +13,11 @@ int main()
     cout << "Enter decimal number: ";
     cin >> decimal;
 
+    if (decimal < 1) {
+        cout << "Please enter a valid input.";
+        return 0;
+    }
+
     while (decimal > 0){
 
         remainder = decimal % 2;
