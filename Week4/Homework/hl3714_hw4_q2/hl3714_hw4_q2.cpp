@@ -13,6 +13,7 @@ int main()
     cout << "Enter decimal number: ";
     cin >> decimal;
     
+    cout << decimal << " is ";
     //print M first
     if ((decimal / 1000) > 0) {
             for (counter = decimal / 1000; counter > 0; counter--) {

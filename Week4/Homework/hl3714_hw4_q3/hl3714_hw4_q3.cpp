@@ -10,7 +10,7 @@ int main()
     int result = 0, position = 1; 
     //position is the unit digit for now
 
-    cout << "Enter decimal number: ";
+    cout << "Enter decimal number: " << endl;
     cin >> decimal;
 
     if (decimal < 1) {
@@ -18,6 +18,7 @@ int main()
         return 0;
     }
 
+    cout << "The binary representation of " << decimal << " is ";
     while (decimal > 0){
 
         remainder = decimal % 2;
