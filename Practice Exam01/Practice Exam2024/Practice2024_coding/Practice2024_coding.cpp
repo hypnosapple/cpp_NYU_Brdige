@@ -10,20 +10,18 @@ int main()
     int l, lb;
     int lettera, letterb;
     int spacea, spaceb;
-    int c;
     int d; //for second part space b
     int e; //for second part letter
 
     cout << "Please enter a positive number: " << endl;
     cin >> n;
 
-    c = n;
 
     //print first half
     for (l = 1; l <= n; l++) {
 
             //print space 1
-            for (spacea = c - 1; spacea > 0; spacea--) {
+            for (spacea = n - l; spacea > 0; spacea--) {
                 cout << " ";
             }
 
@@ -39,10 +37,6 @@ int main()
                 //print letter2
                 cout << (char)(l + 96);
             }
-
-            c--;
-
-
 
         cout << endl;
     }
